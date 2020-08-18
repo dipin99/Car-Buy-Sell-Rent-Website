@@ -1,125 +1,136 @@
 <!DOCTYPE html>
 
 <html>
- <head>
- 
- <title>contact</title>
- <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+
+  <title>contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: blanchedalmond;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    input[type=text],
+    select,
+    textarea {
+      width: 50%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+
+    input[type=submit] {
+      background-color: red;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: maroon;
+    }
+
+    .container {
+
+      border-radius: 5px;
+      background-color: black;
+      padding: 20px;
+    }
+  </style>
+
+
+
+</head>
 <style>
-body {font-family: Arial, Helvetica, sans-serif;
-color: blanchedalmond;}
-* {box-sizing: border-box;}
-
-input[type=text], select, textarea {
-  width: 50%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: red;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: maroon;
-}
-
-.container {
- 
-  border-radius: 5px;
-  background-color: black;
-  padding: 20px;
-}
-</style>
- 
- 
-
- </head>
- <style>
-h1{
- text-align:center
+  h1 {
+    text-align: center
   }
-body{ background-size: 100%
-}
- 
 
-body {
-  margin: 0;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+  body {
+    background-size: 100%
+  }
 
 
-li a:hover {
-  background-color: #111;
-}
-.active {
-  background-color: #ff0000 ;
-}
+  body {
+    margin: 0;
+  }
 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #ff0000;
+  }
 </style>
 
 </head>
+
 <body bgcolor="black">
 
-<ul>
-<div class="icon-bar">
-  <li><a href="index.php">Home</a></li>
-  <li><a href="login.html">Login</a></li>
-  <li><a class="active" href="#Contact">Contact</a></li>
-  <li><a href="explore.html">Explore</a></li>
- 
-  <li><a href="#About">About</a></li>
-  
-</ul>
-<div class="container" >
-    <div style="text-align:center" >
+  <ul>
+    <div class="icon-bar">
+      <li><a href="index.php">Home</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a class="active" href="#Contact">Contact</a></li>
+      <li><a href="explore.html">Explore</a></li>
+
+      <li><a href="#About">About</a></li>
+
+  </ul>
+  <div class="container">
+    <div style="text-align:center">
       <h2>Contact Us</h2>
       <p>Swing by for a cup of coffee, or leave us a message:</p>
     </div>
     <div class="row">
-      
+
       <div class="column" style=text-align:center>
         <form action="/action_page.php">
-          <label for="fname">Name   </label>
+          <label for="fname">Name </label>
           <input type="text" id="fname" name="firstname" placeholder="Your name..">
           <br>
-          <label for="email">Email   </label>
+          <label for="email">Email </label>
           <input type="text" id="email" name="email" placeholder="Your email..">
           <br>
           <label for="subject">Subject</label>
           <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
           <br>
           <input type="submit" value="Submit">
-          
+
         </form>
       </div>
     </div>
@@ -128,5 +139,6 @@ li a:hover {
 
 
 
- </body>
- </html>
+</body>
+
+</html>
