@@ -75,7 +75,7 @@ li a:hover {
   background-color: #ff0000 ;
 }
 a{
-  color:white;
+  color:black;
 }
 </style>
 
